@@ -1,21 +1,221 @@
 .heroSection {
   background-color: #fbf7f5;
+  margin: 5px 30px;
+}
+
+nav a {
+  padding: 8px 0px;
 }
 
 body {
   background-color: #fbf7f5;
+  margin: 10px 30px;
 }
 
 nav {
   color: #1b3d41;
+  background-color: #fbf7f5;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 8px;
+  margin: 48px 20px;
+  border-radius: 12px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+section nav {
+  background-color: #fbf7f5;
+  border-radius: 12px;
 }
 
 h1 {
   color: #ffffff;
+  text-align: center;
 }
 
 p {
   color: #ffffff;
+  text-align: center;
+}
+
+footer {
+  background-color: #ffffff;
+  border-radius: 12px;
+  color: #1b3d41;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 8px;
+  margin: 48px 0px;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+.imgBackground {
+  background-color: #1b3d41;
+  border-radius: 12px 30px 20px 30px;
+  height: 882px;
+  width: 800px;
+}
+
+div h1 {
+  font-size: 80px;
+}
+
+div p {
+  font-size: 24px;
+}
+
+//BUTTONS
+.navsignupbtn {
+  font-size: 16px;
+  border: #8d7d48;
+  border-radius: 22px;
+  background-color: #ffffff;
+  padding: 12px 20px;
+  margin: 48px 0px;
+}
+
+.titlesignupbtn {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.h1signupbtn {
+  font-size: 16px;
+  border: #cfb095;
+  border-radius: 22px;
+  background-color: #b3ecec;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.bookaplaydatebtn {
+  font-size: 16px;
+  border: #8d7d48;
+  border-radius: 22px;
+  background-color: #ffffff;
+  padding: 12px 20px;
+}
+
+.introplaydates div {
+  font-size: 14px;
+  border-radius: 22px;
+  background-color: #b3ecec;
+  padding: 5px 10px;
+}
+
+.introplaydates {
+  background-color: #ffffff;
+  border-radius: 22px;
+}
+
+.introplaydates h2 {
+  font-size: 30px;
+  display: block;
+}
+.introplaydates p {
+  font-size: 20px;
+  color: #1b3d41;
+  display: block;
+}
+
+// section 3: how it works
+.howitworks div {
+  font-size: 14px;
+}
+
+.howitworks h2 {
+  font-size: 53px;
+}
+
+// Boxes in column
+.boxes {
+  display: flex;
+  flex-direction: row;
+}
+
+// Box 1
+.boxOne {
+  background-color: #ffffff;
+  border-radius: 22px;
+  padding: 0px 20px;
+  margin: 0px 0px 40px;
+}
+
+.boxOne p {
+  color: #1b3d41;
+  font-size: 20px;
+}
+
+.boxTwo {
+  background-color: #ffffff;
+  border-radius: 22px;
+  padding: 0px 20px;
+  margin: 0px 0px 40px;
+}
+
+.boxTwo p {
+  color: #1b3d41;
+  font-size: 20px;
+}
+
+.boxThree {
+  background-color: #ffffff;
+  border-radius: 22px;
+  padding: 0px 20px;
+  margin: 0px 0px 40px;
+}
+
+.boxThree p {
+  color: #1b3d41;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+.footerColumnOne {
+  margin: 0px 0px 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerColumnTwo {
+  margin: 0px 0px 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerColumnThree {
+  margin: 0px 0px 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.termsAndPolicy {
+  display: flex;
+  flex-direction: row;
+}
+
+.childrenplaying1 {
+  height: '70px';
+  width: '45px';
+}
+
+.childplaying2 {
+  height: '406px';
+  width: '403px';
 }

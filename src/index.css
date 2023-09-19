@@ -10,7 +10,7 @@ body {
   font-family: 'Space Mono', monospace;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
+  color: #1b3d41;
 }
